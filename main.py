@@ -21,6 +21,10 @@ def handle_text(message) :
         bot.send_message(message.chat.id, "))")
     elif message.text == "пойдет":
         bot.send_message(message.chat.id, "а должно быть хорошо")
+    elif message.text == "как ты":
+        bot.send_message(message.chat.id, "норм, ты как")
+
+
 
     else:
         bot.send_message(message.chat.id, "Не верный запрос")
